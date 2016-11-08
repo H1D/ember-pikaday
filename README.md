@@ -186,6 +186,8 @@ export default {
     var i18n = Ember.Object.extend({
       previousMonth: 'Vorheriger Monat',
       nextMonth: 'Nächster Monat',
+      midnight: 'Mitternacht',
+      noon: 'Mittag',
       months: moment.localeData()._months,
       weekdays: moment.localeData()._weekdays,
       weekdaysShort: moment.localeData()._weekdaysShort
